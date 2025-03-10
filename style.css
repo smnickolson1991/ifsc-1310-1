@@ -30,12 +30,7 @@ a:hover {
 a:active {
   color: rgb(238, 228, 228); /* Color when clicking the link */
 }
-    body {
-      background-color: #1a1919;
-    }
-    p, h1, h2, h3, h4, h5, h6, a, li, dt, dd, figcaption, th, td {
-      color: white;
-    }
+    
 
     a:link {
       color: white; /* Ensures unclicked links are white */
