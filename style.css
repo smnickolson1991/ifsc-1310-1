@@ -2,3 +2,30 @@ body, h1, h1, h3, h4, h5, h6, p{margin: 50px;}
 
 footer {text-align: center; padding:20px; background color: #f2f2f2}
 footer h6 {margin:0; font-size: 14px}
+
+caption {
+    color: white;
+    font-weight: bold; /* Optional: Makes the text bold */
+}
+    a {
+  color: white; /* Default link color */
+  text-decoration: none; /* Removes underline (optional) */
+}
+
+a:visited {
+  color: rgb(102, 22, 22); /* Color of the link after it has been clicked */
+}
+
+a:hover {
+  color: rgb(82, 63, 63); /* Color when hovering over the link */
+}
+
+a:active {
+  color: red; /* Color when clicking the link */
+}
+    body {
+      background-color: #1a1919;
+    }
+    p, h1, h2, h3, h4, h5, h6, a, li, dt, dd, figcaption, th, td {
+      color: white;
+    }
