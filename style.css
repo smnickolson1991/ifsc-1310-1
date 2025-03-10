@@ -37,4 +37,6 @@ a:active {
       color: white;
     }
 
-    
+    a:link {
+      color: white; /* Ensures unclicked links are white */
+    }
