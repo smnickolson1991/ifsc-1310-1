@@ -1,37 +1,39 @@
-body, h1, h1, h3, h4, h5, h6, p{margin: 50px;}
+body, h1, h3, h4, h5, h6, p {
+  margin: 50px;
+}
 
-footer {text-align: center; padding:20px; background color: #f2f2f2}
-footer h6 {margin:0; font-size: 14px}
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+footer h6 {
+  margin: 0;
+  font-size: 14px;
+}
 
 body {
-    background-color: #2E2E2E; /* Dark Grey */
-  }
-  p, h1, h2, h3, h4, h5, h6, a, li, dt, dd, figcaption, th, td {
-    color: white;
-  }
-
-caption {
-    color: white;
-    font-weight: bold; /* Optional: Makes the text bold */
+  background-color: #1a1919; /* Dark background color */
 }
-    a {
+
+p, h1, h2, h3, h4, h5, h6, a, li, dt, dd, figcaption, th, td {
+  color: white;
+}
+
+a {
   color: white; /* Default link color */
   text-decoration: none; /* Removes underline (optional) */
 }
 
 a:visited {
-  color: rgba(103,30,50,255); /* Color of the link after it has been clicked */
+  color: rgba(103, 30, 50, 255); /* Color for visited links */
 }
 
 a:hover {
-  color: rgb(144,110,119); /* Color when hovering over the link */
+  color: rgb(144, 110, 119); /* Hover color */
 }
 
 a:active {
-  color: rgb(238, 228, 228); /* Color when clicking the link */
+  color: rgb(238, 228, 228); /* Active link color */
 }
-    
-
-    a:link {
-      color: white; /* Ensures unclicked links are white */
-    }
