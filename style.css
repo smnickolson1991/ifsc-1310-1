@@ -5,7 +5,7 @@ body, h1, h3, h4, h5, h6, p {
 footer {
   text-align: center;
   padding: 20px;
-  background-color: #f2f2f2;
+  background-color: #000000;
 }
 
 footer h6 {
@@ -27,13 +27,13 @@ a {
 }
 
 a:visited {
-  color: rgba(144,110,119); !important; /* Color for visited links */
+  color: rgba(144,110,119); /* Color for visited links */
 }
 
 a:hover {
-  color:  rgb(103,30,50,255); !important; /* Hover color */
+  color:  rgb(103,30,50,255); /* Hover color */
 }
 
 a:active {
-  color: rgb(238, 228, 228); !important;/* Active link color */
+  color: rgb(238, 228, 228); /* Active link color */
 }
