@@ -20,15 +20,15 @@ caption {
 }
 
 a:visited {
-  color: rgb(102, 22, 22); /* Color of the link after it has been clicked */
+  color: rgb(138, 24, 24); /* Color of the link after it has been clicked */
 }
 
 a:hover {
-  color: rgb(78, 26, 26); /* Color when hovering over the link */
+  color: rgb(102, 22, 22); /* Color when hovering over the link */
 }
 
 a:active {
-  color: red; /* Color when clicking the link */
+  color: rgb(192, 166, 166); /* Color when clicking the link */
 }
     body {
       background-color: #1a1919;
