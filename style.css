@@ -19,13 +19,15 @@ caption {
   text-decoration: none; /* Removes underline (optional) */
 }
 
+a:hover {
+  color: rgb(144,110,119); /* Color when hovering over the link */
+}
+
 a:visited {
   color: rgba(103,30,50,255); /* Color of the link after it has been clicked */
 }
 
-a:hover {
-  color: rgb(144,110,119); /* Color when hovering over the link */
-}
+
 
 a:active {
   color: rgb(238, 228, 228); /* Color when clicking the link */
