@@ -24,7 +24,7 @@ a:visited {
 }
 
 a:hover {
-  color: rgb(170,171,170,255); /* Color when hovering over the link */
+  color: rgb(144,110,119); /* Color when hovering over the link */
 }
 
 a:active {
