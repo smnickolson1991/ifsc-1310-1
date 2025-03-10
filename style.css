@@ -3,6 +3,13 @@ body, h1, h1, h3, h4, h5, h6, p{margin: 50px;}
 footer {text-align: center; padding:20px; background color: #f2f2f2}
 footer h6 {margin:0; font-size: 14px}
 
+body {
+    background-color: #2E2E2E; /* Dark Grey */
+  }
+  p, h1, h2, h3, h4, h5, h6, a, li, dt, dd, figcaption, th, td {
+    color: white;
+  }
+
 caption {
     color: white;
     font-weight: bold; /* Optional: Makes the text bold */
