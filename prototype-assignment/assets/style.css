@@ -56,3 +56,34 @@ a:hover {
 a:active {
   color: rgb(238, 228, 228); /* Active link color */
 }
+
+table{
+  width:100%;
+  border:1px solid #c0c0c0;
+  border-collapse:collapse;
+}
+caption{
+  font-weight: bold;
+  margin: 10px;
+  font-size:1.3rem;
+}
+tr:nth-child(even){
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+td:nth-child(n+2){
+text-align:right;
+}
+
+tr:hover{
+      background-color: rgba(0, 0, 0, 0.3);
+}
+th{
+background-color: #172635;
+color:#ffffff;
+padding:7.5px;  
+}
+td{
+border:1px solid #c0c0c0;
+padding:5px;
+}
