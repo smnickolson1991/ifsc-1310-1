@@ -1,10 +1,4 @@
-body,
-h1,
-h3,
-h4,
-h5,
-h6,
-p {
+body,h1,h3,h4,h5,h6,p {
   margin: 50px;
 }
 
@@ -23,20 +17,7 @@ body {
   background-color: #1a1919; /* Dark background color */
 }
 
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-a,
-li,
-dt,
-dd,
-figcaption,
-th,
-td {
+p,h1,h2,h3,h4,h5,h6,a,li,dt,dd,figcaption,th,td {
   color: white;
 }
 
