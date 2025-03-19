@@ -1,0 +1,69 @@
+body,h1,h3,h4,h5,h6,p {
+  margin: 50px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1a1919;
+}
+
+footer h6 {
+  margin: 0;
+  font-size: 14px;
+}
+
+body {
+  background-color: #1a1919; /* Dark background color */
+}
+
+p,h1,h2,h3,h4,h5,h6,a,li,dt,dd,figcaption,th,td {
+  color: white;
+}
+
+a {
+  color: white; /* Default link color */
+  text-decoration: none; /* Removes underline (optional) */
+}
+
+a:visited {
+  color: rgba(144, 110, 119); /* Color for visited links */
+}
+
+a:hover {
+  color: rgb(103, 30, 50, 255); /* Hover color */
+}
+
+a:active {
+  color: rgb(238, 228, 228); /* Active link color */
+}
+table{
+  width:100%;
+  border:1px solid #c0c0c0;
+  border-collapse:collapse;
+}
+caption{
+  font-weight: bold;
+  margin: 10px;
+  font-size:1.3rem;
+}
+tr:nth-child(even){
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+td:nth-child(n+2){
+text-align:right;
+}
+
+tr:hover{
+      background-color: rgba(0, 0, 0, 0.3);
+}
+th{
+background-color: #172635;
+color:#ffffff;
+padding:7.5px;  
+}
+td{
+border:1px solid #c0c0c0;
+padding:5px;
+}
