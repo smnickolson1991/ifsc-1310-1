@@ -5,8 +5,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Positioning Lab - Absolute</title>
+  <title>Positioning Lab - Absolute Centering</title>
   <style type="text/css">
+    /* Box Sizing */
     html {
       box-sizing: border-box;
     }
@@ -24,41 +25,82 @@
       color: #FFF;
       text-align: center;
       line-height: 24px;
-      height: 100vh;
       margin: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      height: 100vh;
+      /* Ensure full viewport height */
     }
 
+    /* Centering Wrapper */
     #wrapper {
       background-color: #FFF;
       border: 1px solid #c0c0c0;
       width: 800px;
+      height: 400px;
       text-shadow: 2px 2px #000;
       position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      position: relative;
+      /* Needed for absolute child positioning */
     }
 
-    #navy, #teal, #blue, #aqua {
+    /* Box Styling */
+    #navy,
+    #teal,
+    #blue,
+    #aqua {
       width: 370px;
       height: 150px;
-      margin-top: 20px;
-      margin-left: 20px;
-      float: left;
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
+    /* Positioning with 20px space */
+    #navy {
+      background-color: #001f3f;
+      top: 20px;
+      left: 20px;
+    }
+
+    #teal {
+      background-color: #39CCCC;
+      top: 20px;
+      left: 410px;
+      /* 370px box + 20px space */
+    }
+
+    #blue {
+      background-color: #0074D9;
+      top: 190px;
+      /* 150px box + 20px space */
+      left: 20px;
+    }
+
+    #aqua {
+      background-color: #7FDBFF;
+      top: 190px;
+      left: 410px;
+      /* 370px box + 20px space */
+    }
+
+    /* Footer */
     #footer {
       background-color: #666;
       width: 760px;
-      margin-left: 20px;
-      margin-bottom: 20px;
-      clear: both;
+      height: 20px;
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
     }
 
     h1 {
       color: #000;
       font-weight: normal;
-      padding: 50px;
+      padding-bottom: 20px;
     }
   </style>
 </head>
