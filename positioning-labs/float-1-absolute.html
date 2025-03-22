@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Positioning Lab - Float 1 - Absolute</title>
+  <title>Positioning Lab - Absolute Centering</title>
   <style type="text/css">
     
     html {
@@ -25,6 +24,11 @@
       color: #FFF;
       text-align: center;
       line-height: 24px;
+      height: 100vh; /* Ensure full screen height */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
 
     #wrapper {
@@ -32,12 +36,8 @@
       border: 1px solid #c0c0c0;
       width: 800px;
       height: 400px;
-      margin auto;
       text-shadow: 2px 2px #000;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+      position: relative; /* Change to relative so children position inside it */
     }
 
     #navy,
@@ -47,30 +47,37 @@
       width: 370px;
       height: 150px;
       position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
     #navy {
       background-color: #001f3f;
-      top: 20px;
-      left: 20px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-100%, -100%);
     }
 
     #teal {
       background-color: #39CCCC;
-      top: 20px;
-      left: 410px;
+      top: 50%;
+      left: 50%;
+      transform: translate(0, -100%);
     }
 
     #blue {
       background-color: #0074D9;
-      top: 190px;
-      left: 20px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-100%, 0);
     }
 
     #aqua {
       background-color: #7FDBFF;
-      top: 190px;
-      left: 410px;
+      top: 50%;
+      left: 50%;
+      transform: translate(0, 0);
     }
 
     #footer {
@@ -78,19 +85,19 @@
       width: 760px;
       height: 20px;
       position: absolute;
-      bottom: 20px; 
-        left: 20px;
-      clear: both;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
     }
 
     h1 {
       color: #000;
       font-weight: normal;
-      padding: 50px;
+      margin-bottom: 20px;
     }
+
   </style>
 </head>
-
 <body>
   <h1>Exercise</h1>
   <section id="wrapper">
@@ -101,5 +108,4 @@
     <div id="footer">Footer</div>
   </section>
 </body>
-
 </html>
