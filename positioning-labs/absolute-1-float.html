@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Positioning Lab - Float Corners</title>
+  <style type="text/css">
+    html {
+      box-sizing: border-box;
+    }
+
+    *,
+    *:before,
+    *:after {
+      box-sizing: inherit;
+    }
+
+    body {
+      background-color: #ECECEC;
+      font-weight: bold;
+      font-family: Tahoma, Geneva, sans-serif;
+      color: #FFF;
+      text-align: center;
+      line-height: 24px;
+      margin: 0;
+      padding: 0;
+      position: relative;
+    }
+
+    /* Styling for the wrapper */
+    #wrapper {
+      background-color: #FFF;
+      border: 1px solid #c0c0c0;
+      width: 600px;
+      height: 140px;
+      margin: 100px auto;
+      text-shadow: 2px 2px #000;
+      position: relative;
+    }
+
+    /* Float boxes to the corners of the page */
+    .box {
+      width: 100px;
+      height: 100px;
+      text-align: center;
+      line-height: 100px;
+      color: white;
+      position: fixed;
+    }
+
+    #navy {
+      background-color: #001f3f;
+      top: 0;
+      left: 0;
+    }
+
+    #teal {
+      background-color: #39CCCC;
+      top: 0;
+      right: 0;
+    }
+
+    #blue {
+      background-color: #0074D9;
+      bottom: 0;
+      left: 0;
+    }
+
+    #aqua {
+      background-color: #7FDBFF;
+      bottom: 0;
+      right: 0;
+    }
+
+    /* Footer styling */
+    #footer {
+      background-color: #666;
+      width: 100px;
+      height: 100px;
+      text-align: center;
+      margin: 20px auto;
+    }
+
+    h1 {
+      color: #000;
+      font-weight: normal;
+      padding: 50px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Exercise</h1>
+  <!-- Corner boxes using float -->
+  <div id="navy" class="box">Navy</div>
+  <div id="teal" class="box">Teal</div>
+  <div id="blue" class="box">Blue</div>
+  <div id="aqua" class="box">Aqua</div>
+
+  <section id="wrapper">
+    <div id="footer">Footer</div>
+  </section>
+
+</body>
+
+</html>
